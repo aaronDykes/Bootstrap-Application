@@ -2,6 +2,7 @@
 
 
 function printTriangle(){
+
     let height = window.prompt("Please enter the size of the triangle."),
         count = 1,
         result = "*<br>",
@@ -12,10 +13,11 @@ function printTriangle(){
         result += ast +"<br>";
         count++;
         if( count == height ) break;
-        
     }
     document.getElementById("printTri").innerHTML=result;
 }
+
+
 
 function printDiamond(){
 
@@ -37,6 +39,7 @@ function printDiamond(){
     }
     document.getElementById("printDi").innerHTML=result;
 }
+
 
 
 function printHollowRect(){
@@ -61,7 +64,10 @@ function printHollowRect(){
     document.getElementById("printRect").innerHTML=result;
 }
 
+
+
 function fibonacci(){
+
     let parent = document.getElementById( "fibList" );
     parent.lastChild.remove();
 
