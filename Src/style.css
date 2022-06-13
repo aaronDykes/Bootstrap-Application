@@ -1,0 +1,461 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+/*
+==========================================================================================================
+
+1. Start of Nav Div
+
+==========================================================================================================
+*/
+
+.dropdown{
+    position: absolute;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 10;
+    margin-top: -60px;
+}
+
+.dropdown-content a {
+    display:inline-block;
+}
+
+.dropdown:hover .dropdown-content {
+    display:inline-block;
+}
+
+#dropBtn{
+    padding: 10px;
+    background-color:#ebf2ff;
+    border-color:#ebf2ff;
+    color:rgb(184, 95, 36);
+    border-radius: 8px;
+    font-size: 90px;
+}
+
+#dropBtn:hover{
+    padding: 10px;
+    background-color:#ebf2ff;
+    border-color:#ebf2ff;
+    color:rgb(126, 61, 18);
+    text-decoration:underline;
+}
+
+
+
+
+#topDiv{
+    background-color:#ebf2ff;
+    height: 260px;
+}
+
+.navList{
+    list-style-type: none;
+}
+
+.navButton{
+    padding: 10px;
+    background-color:#d9d9d9;
+    border-color:#d9d9d9;
+    color:black;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-bottom:2px;
+}
+.navButton:hover{
+    text-align:left;
+    padding: 13px;
+    background-color:rgb(234, 147, 60);
+    border-color:#e3e3e3;
+    color:white;
+    border-radius: 8px;
+}
+
+#rightNav{
+    text-align: right;
+}
+
+/*
+==========================================================================================================
+
+1. End of Header Div
+
+==========================================================================================================
+*/
+
+
+
+
+/*
+==========================================================================================================
+
+2. Start of Content Div ( index.html ).
+
+==========================================================================================================
+*/
+
+#firstDiv{
+    background-color:white;
+    height: 500px;
+}
+
+#nameDiv{
+    margin:auto;
+    text-align: center;
+}
+
+.mainHead{
+    font-size: 100px;
+}
+
+.firstName{
+    list-style-type: none;
+}
+
+.name{
+    font-size: 75px;
+    font-weight: bold;
+    color: rgb(52, 95, 163);
+    background-color: white;
+    border-color: white;
+    border-radius: 10px;
+}
+
+.name:hover{
+    font-size: 75px;
+    font-weight: bold;
+    color: rgb(29, 50, 84);
+    background-color:white;
+    border-color:white;
+    border-radius: 10px;
+}
+
+#topContact{
+    margin-left: -60px;
+    margin-top: -90px;
+}
+
+#bottomContact{
+    margin-bottom: 100px;
+    margin-left: -60px;
+}
+
+.rightContact{
+    text-align: right;
+    font-size: 25px;
+}
+
+/*
+==========================================================================================================
+
+2. End of Content Div ( index.html ).
+
+==========================================================================================================
+*/
+
+
+
+
+/*
+==========================================================================================================
+
+3. Start of Footer Div ( The same on all html files ).
+
+==========================================================================================================
+*/
+
+#footer{
+    height: 200px;
+    margin: auto;
+    background-color: rgb(233, 235, 237);
+}
+
+#rightFooter{
+    text-align: right;
+}
+
+#topLink{
+    color: black;
+}
+
+#topLink:hover{
+    text-decoration: none;
+    color: rgb(23, 26, 206);
+}
+
+
+/*
+==========================================================================================================
+
+3. End of Footer Div
+
+==========================================================================================================
+*/
+
+
+
+
+
+/*
+==========================================================================================================
+
+4. Start of gallery ( gallery.html ).
+
+==========================================================================================================
+*/
+
+#galleryDiv{
+    margin: auto;
+    margin-top:-33px;
+    background-color:white;
+    text-align: center;
+    height: 800px;
+}
+
+#three{
+    font-size: 35px;
+    margin-bottom:50px;
+    margin-top: -40px;
+}
+
+#imgDiv{
+    margin-top: 100px;
+}
+
+#imgHeader{
+    font-size: 80px;
+    font-weight:normal;
+    margin-bottom: 75px;
+}
+
+/*
+==========================================================================================================
+
+4. End of gallery ( gallery.html ).
+
+==========================================================================================================
+*/
+
+
+
+
+/*
+==========================================================================================================
+
+5. Start of physics content div ( physics.html ).
+
+==========================================================================================================
+*/
+
+#physics{
+    font-size: 90px;
+}
+
+#feynmanIntegral{
+    font-size: 35px;
+}
+
+#videos{
+    background-color: white;
+    margin: auto;
+    text-align: center;
+}
+
+#aboutPhysics{
+    background-color:white;
+    margin: auto;
+    text-align: center;
+    height: 400px
+}
+
+/*
+==========================================================================================================
+
+5. End of physics content div ( physics.html ).
+
+==========================================================================================================
+*/
+
+
+
+
+/*
+==========================================================================================================
+
+6. Start of Pattern content ( pattern.html ).
+
+==========================================================================================================
+*/
+
+
+#leftPatBtn{
+    text-align: left;
+}
+
+#middlePatBtn{
+    text-align: center;
+}
+
+#rightPatBtn{
+    text-align: right;
+}
+
+#pattern{
+    background-color: white;
+}
+
+.patt{
+    font-size: 45px;
+    border-radius: 25px;
+    background-color:rgb(82, 141, 219);
+    border-color:rgb(82, 141, 219);
+    padding: 35px;
+}
+
+.patt:hover{
+    background-color:rgb(63, 109, 170);
+    border-color:rgb(63, 109, 170);
+    color: white;
+    padding: 37px;
+    margin: -2px;
+}
+
+#patternPrinter{
+    list-style-type: none;
+    text-align: center;
+    margin:auto
+}
+
+#tri{
+    text-align: left;
+}
+
+#diam{
+    text-align: center;
+}
+
+#rect{
+    text-align: right;
+}
+
+#patternGen{
+    background-color: white;
+}
+
+/*
+==========================================================================================================
+
+6. End of Pattern content ( pattern.html ).
+
+==========================================================================================================
+*/
+
+
+
+
+/*
+==========================================================================================================
+
+7. Start of Fibonacci content ( fibonacci.html ). 
+
+==========================================================================================================
+*/
+
+#fibList{
+    list-style-type: none;
+    text-align: center;
+    font-size: 35px;
+    color:rgb(199, 97, 30);
+}
+
+#fibGen{
+    text-align: center;
+    background-color: white;
+}
+
+#fibPrint{
+    background-color: white;
+}
+
+#fibBtn{
+    padding: 10px;
+    background-color:white;
+    border-color:white;
+    color:rgb(36, 61, 98);
+    border-radius: 15px;
+    font-size: 65px;
+    margin-bottom: -35px;
+}
+
+#fibBtn:hover{
+    border-radius: 15px;
+    padding: 13px;
+    background-color:white;
+    border-color:white;
+    color:rgb(20, 112, 182);
+    margin: -3px;
+    margin-bottom: -38px;
+}
+
+/*
+==========================================================================================================
+
+7. End of Fibonacci content ( fibonacci.html ).
+
+==========================================================================================================
+*/
+
+
+
+
+/*
+==========================================================================================================
+
+8. Start of biography content ( biography.html ).
+
+==========================================================================================================
+*/
+
+#leftCont{
+    text-align: left;
+}
+
+#midCont{
+    text-align: center;
+}
+
+#rightCont{
+    text-align: right;
+}
+
+#bioTitle{
+    text-align:center;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+#bio{
+    font-size: 75px;
+    font-weight: bold;
+}
+
+/*
+==========================================================================================================
+
+8. End of biography ( biography.html )
+
+==========================================================================================================
+*/
+
+
+

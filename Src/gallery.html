@@ -1,0 +1,158 @@
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.25, shrink-to-fit=no">
+    <link rel="stylesheet" 
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.css">
+    <title>Aaron Dykes</title>
+</head>
+<body>
+
+
+
+    <!-- Header/Nav Div -->
+    <div class="jumbotron" id="topDiv">
+        <div class="row">
+            <div class="col-sm-4"> <!-- Start of col-sm-4 -->
+                <div class="dropdown"> <!-- Start of dropdown menu -->
+                    <button class="btn dropbtn" id="dropBtn">Menu</button>
+                    <div class="dropdown-content"> <!-- Start of dropdown content -->
+
+                        <nav>
+                            <ul id="leftNav">
+                                <li class="navList">
+                                    <a href="index.html">
+                                        <button class="btn btn-success navButton"> Home &nbsp; </button>
+                                    </a>
+                                </li>
+                                <li class="navList">
+                                    <a href="biography.html">
+                                        <button class="btn btn-success navButton">Bio &nbsp; </button>
+                                    </a>
+                                </li>
+                                <li class="navList">
+                                    <a href="physics.html">
+                                        <button class="btn btn-success navButton"> Physics &nbsp; </button>
+                                    </a>
+                                </li>
+                                <li class="navList">
+                                    <a href="pattern.html">
+                                        <button class="btn btn-success navButton"> Patterns &nbsp; </button>
+                                    </a>
+                                </li>
+                                <li class="navList">
+                                    <a href="fibonacci.html">
+                                        <button class="btn btn-success navButton"> Fibonnaci &nbsp; </button>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                    </div> <!-- End of dropdown content -->
+                </div> <!-- End of dropdown menu -->
+            </div> <!-- End of col-sm-4 -->
+
+            <div class="col-sm-4">
+            </div>
+
+            <div class="col-sm-4" id="rightNav">
+                <dl>
+                    <dt>Student </dt>
+                    <dd>Aaron Dykes, 040933702</dd>
+
+                    <dt>Course </dt>
+                    <dd>CST-8238_370</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <!-- End of Header/Nav Div -->
+
+
+
+    <!-- Start of content div ( gallery.html ) -->
+    <div class="jumbotron" id="galleryDiv">
+        <div class="row">
+            <div class="col-sm-12" id="imgDiv">
+                <h1 id="imgHeader"> Photo Grid</h1>
+                <h2 id="three"> three by three</h2>
+                <table id="imgTab">
+                    <tr>
+                        <img id="pic"
+                             src="https://insidetheperimeter.ca/wp-content/uploads/2018/12/abstra-ella-quantum-quandaries.jpg"
+                             alt="The quandary at the heart of quantum mechanics"
+                             style="width: 230px; height: 100px; margin-right: 5px; margin-bottom: 5px;">
+                        <img src="https://phys.org/newman/gfx/news/hires/2015/5666a45b218f7.jpg"
+                             style="width: 230px; height: 100px; margin-right: 5px; margin-bottom: 5px;">
+                        <img src='https://images.unsplash.com/photo-1651406958851-a0abbda9ea7c?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTQwMDI3NDY&ixlib=rb-1.2.1&q=80'
+                             alt='' 
+                             style="width: 230px; height: 100px; margin-right: 5px; margin-bottom: 5px;">
+                    </tr><br>
+                    <tr>
+                        <img src='https://images.unsplash.com/photo-1651210577409-3b37b988c726?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTQwMDI5MzU&ixlib=rb-1.2.1&q=80'
+                             alt='' 
+                             style="width: 230px; height: 100px; margin-right: 5px;">
+                        <img src='https://images.unsplash.com/photo-1544198365-f5d60b6d8190?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTQwMDMwNjg&ixlib=rb-1.2.1&q=80'
+                             alt='' 
+                             style="width: 230px; height: 100px; margin-right: 5px;">
+                        <img src='https://images.unsplash.com/photo-1461301214746-1e109215d6d3?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTQwMDMxNTE&ixlib=rb-1.2.1&q=80'
+                             alt='' 
+                             style="width: 230px; height: 100px; margin-right: 5px;">
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </div>
+    <!-- End of content div ( gallery.html ) -->
+
+
+
+    <!-- Start of Footer Div ( gallery.html ) -->
+    <div class="jumbotron" id="footer">
+        <div class="row">
+            <div class="col-sm-4">
+                <dl>
+                    <dt>Top of the page</dt>
+                    <dd>
+                        <a href="#topDiv" id="topLink">
+                            Here's the link!
+                        </a>
+                    </dd>
+                </dl>
+            </div>
+
+            <div class="col-sm-4">
+            </div>
+
+            <div class="col-sm-4" id="rightFooter">
+                <dl>
+                    <dt>Student </dt>
+                    <dd>Aaron Dykes, 040933702</dd>
+
+                    <dt>Course </dt>
+                    <dd>CST-8238_370</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <!-- End of Footer Div ( gallery.html ) -->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+</body>
+</html>

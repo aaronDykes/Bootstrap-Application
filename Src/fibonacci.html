@@ -1,0 +1,162 @@
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.25, shrink-to-fit=no">
+    <link rel="stylesheet" 
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.css">
+    <title>Aaron Dykes Lab-3</title>
+</head>
+<body>
+
+
+
+    <!-- Start of Nav div ( fibonacci.html ) -->
+    <div class="jumbotron" id="topDiv">
+        <div class="row">
+            <div class="col-sm-4"><!-- Start of col-sm-4 -->
+                <div class="dropdown"> <!-- Start of dropdown menu -->
+                    <button class="btn dropbtn" id="dropBtn">Menu</button>
+                    <div class="dropdown-content"> <!-- Start of dropdown content -->
+                        
+                        <nav>
+                            <ul id="leftNav">
+                                <li class="navList">
+                                    <a href="index.html">
+                                        <button class="btn btn-success navButton"> Home &nbsp; </button>
+                                    </a>
+                                </li>
+                                <li class="navList">
+                                    <a href="pattern.html">
+                                        <button class="btn btn-success navButton"> Patterns &nbsp; </button>
+                                    </a>
+                                </li>
+                                <li class="navList">
+                                    <a href="biography.html">
+                                        <button class="btn btn-success navButton"> Bio &nbsp; </button>
+                                    </a>
+                                </li>
+                                <li class="navList">
+                                    <a href="physics.html">
+                                        <button class="btn btn-success navButton">Physics &nbsp; </button>
+                                    </a>
+                                </li>
+                                <li class="navList">
+                                    <a href="gallery.html">
+                                        <button class="btn btn-success navButton"> Gallery &nbsp; </button>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                    </div> <!-- End of dropdown content -->
+                </div> <!-- End of dropdown menu -->
+            </div> <!-- End of col-sm-4 -->
+
+            <div class="col-sm-4">
+            </div>
+
+            <div class="col-sm-4" id="rightNav">
+                <dl>
+                    <dt>Student </dt>
+                    <dd>Aaron Dykes, 040933702</dd>
+
+                    <dt>Course </dt>
+                    <dd>CST-8238_370</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <!-- End of Nav div ( fibonacci.html ) -->
+
+
+
+    <!-- Start of content div #1 ( fibonacci.html ) -->
+    <div class="jumbotron" id="fibGen">
+        <div class="row">
+            <div class="col-sm-3">
+            </div>
+
+            <div class="col-sm-6">
+                <button class="btn btn-success" 
+                        id="fibBtn" 
+                        onclick="fibonacci()"> <strong>Generate Fibonacci</strong>
+                </button>
+            </div>
+
+            <div class="col-sm-3">
+            </div>
+        </div>
+    </div>
+    <!-- End of content div #1 ( fibonacci.html ) -->
+
+
+
+    <!-- Start of content div #2 ( fibonacci.html ) -->
+    <div class="jumbotron" id="fibPrint">
+        <div class="row">
+            <div class="col-sm-4">
+            </div>
+
+            <div class="col-sm-4" id="numbers">
+                <ul id="fibList">
+                    
+                </ul>
+            </div>
+
+            <div class="col-sm-4">
+            </div>
+        </div>
+    </div>
+    <!-- End of content div #2 ( fibonacci.html ) -->
+
+
+
+    <!-- Start of Footer ( fibonacci.html ) -->
+    <div class="jumbotron" id="footer">
+        <div class="row">
+            <div class="col-sm-4">
+                <dl>
+                    <dt>Top of the page</dt>
+                    <dd>
+                        <a href="#topDiv" id="topLink">
+                            Here's the link!
+                        </a>
+                    </dd>
+                </dl>
+            </div>
+
+            <div class="col-sm-4">
+            </div>
+
+            <div class="col-sm-4" id="rightFooter">
+                <dl>
+                    <dt>Student </dt>
+                    <dd>Aaron Dykes, 040933702</dd>
+
+                    <dt>Course </dt>
+                    <dd>CST-8238_370</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <!-- End of Footer ( fibonacci.html ) -->
+
+
+
+    <script src="triangle.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+</body>
+</html>
